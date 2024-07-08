@@ -37,7 +37,7 @@ const TeamsIndex = () => {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>WORLD CUP 2018 TEAMS</h1>
+      <h1 className="text-red-500">WORLD CUP 2018 TEAMS</h1>
       <input
         type="text"
         placeholder="Search Team Name..."
