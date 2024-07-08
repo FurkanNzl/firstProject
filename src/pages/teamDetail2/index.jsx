@@ -34,9 +34,9 @@ const Index = () => {
         <img className="w-full" src={team.flag} alt={team.name} />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{team.name}</div>
-          <p className="text-gray-700 text-base">FIFA Code: {team.fifaCode}</p>
-          <p className="text-gray-700 text-base">ISO2: {team.iso2}</p>
-          <p className="text-gray-700 text-base">Emoji: {team.emojiString}</p>
+          <p className="text-blue-700 text-base">FIFA Code: {team.fifaCode}</p>
+          <p className="text-blue-700 text-base">ISO2: {team.iso2}</p>
+          <p className="text-blue-700 text-base">Emoji: {team.emojiString}</p>
         </div>
       </div>
     </div>
