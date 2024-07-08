@@ -7,7 +7,7 @@ function Error({ statusCode }) {
       <h1>
         {statusCode ? `Bir hata oluştu: ${statusCode}` : "Bir hata oluştu"}
       </h1>
-      <p>
+      <p className="text-red-300">
         {statusCode === 404
           ? "Aradığınız sayfa bulunamadı."
           : "Sunucuda bir hata meydana geldi. Lütfen daha sonra tekrar deneyin."}
