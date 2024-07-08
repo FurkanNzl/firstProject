@@ -51,7 +51,7 @@ const CarIndex = () => {
       </div>
       <div className="w-full max-w-md">
         <h1 className="text-xl font-bold mb-2">Cars:</h1>
-        <ul className="divide-y divide-gray-300">
+        <ul className="divide-y divide-yellow-300">
           {filteredCars.map((car) => (
             <li key={car.id} className="py-2">
               {car.car} {car.car_model}
